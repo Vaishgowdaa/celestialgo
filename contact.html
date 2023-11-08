@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="pro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="CELESTIAGO-removebg-preview.png" alt=""></a>
+           
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+         </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        
+        </nav>
+
+
+        <h1>Contact us</h1>
+
+    </section>
+
+    <!-- contact us -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31111.043138048568!2d77.49499142116339!3d12.91540818988238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3effb00b92cf%3A0x2dd67e6aca079ce6!2sRajarajeshwari%20Nagar%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1698992157118!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <section class="contact-us">
+
+          <div class="row">
+            <div class="contact-col">
+              <div>
+                <i class="fa fa-location-dot"></i>
+                <span>
+                    <h5>Rajarajeshwari nagar first cross Abc building </h5>
+                    <p>Bengaluru, Karnataka</p>
+                </span>
+              </div>
+              <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5> 9591808188</h5>
+                    <p>Monday to saturday, 10AM to 6PM</p>
+                </span>
+              </div>
+              <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>vaishnavigowdaa2002@gmail.com</h5>
+                    <p>Email us to your query</p>
+                </span>
+              </div>
+            </div>
+            <div class="contact-col">
+
+            <form action="formhandle.php" method="post">
+            
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="text"  name="subject" placeholder="Enter your subject" required>
+               
+                <textarea  rows="5" name="message"  placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+</div>
+
+          </div>
+
+    </section>
+
+   
+
+  
+
+
+<!-- footer -->
+<section class="footer">
+<h2>About us</h2>
+<p>Celestialgo.com is a leading website design and development company dedicated to crafting visually stunning and highly functional websites. <br> With a team of skilled designers, developers, and digital strategists, we transform your ideas into engaging online experiences. Our approach is rooted in  <br>creativity and innovation, ensuring that every website we create is not only aesthetically pleasing but also user-friendly and optimized for search engines. <br> From responsive designs to seamless navigation,we prioritize user experience to keep your audience engaged.
+    We specialize in a range of services including <br> custom website design, e-commerce development, content management systems, and mobile app integration. Our solutions are tailored to meet the unique needs <br> of businesses across various industries.</p>
+<div class="icons">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i> 
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-linkedin"></i>
+
+</div>
+<p>Made with <i class="fa fa-heart"></i>hardwork and fun</p>
+</section>
+
+
+
+
+
+    
+ <script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+
+    
+
+ </script>   
+</body>
+</html>
